@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+@theme {
+  /* ===== FONT FAMILY ===== */
+  --font-sans: "Inter", sans-serif;
+
+  /* ===== CONTAINER WIDTHS ===== */
+  --container-max: 1500px; /* Main container - most pages */
+  --container-wide: 1440px; /* Admin dashboard (zyada data fit karne ke liye) */
+  --container-narrow: 1024px; /* Checkout, login pages (focused content) */
+
+  /* ===== BRAND COLORS ===== */
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  --color-primary-light: #dbeafe;
+
+  /* ===== TEXT COLORS ===== */
+  --color-text-primary: #111827;
+  --color-text-secondary: #4b5563;
+  --color-text-muted: #9ca3af;
+
+  /* ===== BACKGROUND COLORS ===== */
+  --color-bg-secondary: #f9fafb;
+  --color-bg-dark: #111827;
+
+  /* ===== STATUS COLORS ===== */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+  --color-info: #3b82f6;
+  --color-star: #fbbf24;
+
+  /* ===== FONT SIZES ===== */
+  --text-h1: 60px;
+  --text-h2: 36;
+
+  /* ===== BORDER RADIUS ===== */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+}
+
+/* ===== Base styles ===== */
+body {
+  font-family: var(--font-sans);
+  color: var(--color-text-secondary);
+  background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--color-text-primary);
+  font-weight: 700;
+}
