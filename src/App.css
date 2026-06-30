@@ -33,7 +33,9 @@
 
   /* ===== FONT SIZES ===== */
   --text-h1: 60px;
-  --text-h2: 36;
+  --text-h2: 36px;
+  --text-h3: 36px;
+  --text-h4: 24px;
 
   /* ===== BORDER RADIUS ===== */
   --radius-sm: 6px;
