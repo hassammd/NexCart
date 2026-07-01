@@ -3,6 +3,7 @@ import Banner from "./Components/Banner";
 import CategorySection from "./Components/CategorySection";
 import FeaturedProducts from "./Components/FeaturedProducts";
 import FeaturesSection from "./Components/FeaturesSection";
+import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import NewArrivalsSlider from "./Components/NewArrivalsSlider";
 import NewsletterBanner from "./Components/NewsletterBanner";
@@ -21,6 +22,7 @@ function App() {
       <NewArrivalsSlider />
       <TestimonialCard />
       <NewsletterBanner />
+      <Footer />
     </>
   );
 }
