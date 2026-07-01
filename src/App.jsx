@@ -4,6 +4,8 @@ import CategorySection from "./Components/CategorySection";
 import FeaturedProducts from "./Components/FeaturedProducts";
 import FeaturesSection from "./Components/FeaturesSection";
 import Navbar from "./Components/Navbar";
+import NewArrivalsSlider from "./Components/NewArrivalsSlider";
+import OfferBanner from "./Components/OfferBanner";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <FeaturesSection />
       <CategorySection />
       <FeaturedProducts />
+      <OfferBanner />
+      <NewArrivalsSlider />
     </>
   );
 }

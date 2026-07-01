@@ -125,7 +125,7 @@ const FeaturedProducts = () => {
             </div>
 
             {/* Add To Cart Button */}
-            <button className="w-full bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold py-2.5 px-4 rounded-lg mt-5 flex items-center justify-center gap-2 transition-colors">
+            <button className="w-full bg-primary hover:bg-primary-hover cursor-pointer text-white text-xs font-semibold py-2.5 px-4 rounded-sm mt-5 flex items-center justify-center gap-2 transition-colors">
               <FiShoppingCart className="w-4 h-4" />
               Add to Cart
             </button>
