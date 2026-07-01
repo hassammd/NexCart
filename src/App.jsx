@@ -5,6 +5,7 @@ import FeaturedProducts from "./Components/FeaturedProducts";
 import FeaturesSection from "./Components/FeaturesSection";
 import Navbar from "./Components/Navbar";
 import NewArrivalsSlider from "./Components/NewArrivalsSlider";
+import NewsletterBanner from "./Components/NewsletterBanner";
 import OfferBanner from "./Components/OfferBanner";
 import TestimonialCard from "./Components/TestimonialCard";
 
@@ -19,6 +20,7 @@ function App() {
       <OfferBanner />
       <NewArrivalsSlider />
       <TestimonialCard />
+      <NewsletterBanner />
     </>
   );
 }
