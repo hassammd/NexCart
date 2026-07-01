@@ -6,6 +6,7 @@ import FeaturesSection from "./Components/FeaturesSection";
 import Navbar from "./Components/Navbar";
 import NewArrivalsSlider from "./Components/NewArrivalsSlider";
 import OfferBanner from "./Components/OfferBanner";
+import TestimonialCard from "./Components/TestimonialCard";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <FeaturedProducts />
       <OfferBanner />
       <NewArrivalsSlider />
+      <TestimonialCard />
     </>
   );
 }
