@@ -66,7 +66,7 @@ const FeaturedProducts = () => {
         {products.map((product) => (
           <div
             key={product.id}
-            className="border border-gray-100 rounded-xl p-4 bg-white shadow-sm flex flex-col justify-between group relative"
+            className="border border-gray-100 rounded-xl p-4 bg-white flex flex-col justify-between group relative"
           >
             <div>
               {/* Top Action Tags */}

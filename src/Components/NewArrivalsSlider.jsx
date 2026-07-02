@@ -183,7 +183,7 @@ const NewArrivalsSlider = () => {
           {newArrivals.map((item) => {
             return (
               <SwiperSlide className="">
-                <div className="border border-gray-100 rounded-xl p-4 bg-white shadow-sm flex flex-col justify-between items-center text-center h-[340px] hover:border-blue-200 transition-all duration-300">
+                <div className="border border-gray-100 rounded-xl p-4 bg-white  flex flex-col justify-between items-center text-center h-[340px] hover:border-blue-200 transition-all duration-300">
                   {/* Image Wrapper */}
                   <div className="w-full h-40 flex items-center justify-center overflow-hidden mb-4">
                     <img

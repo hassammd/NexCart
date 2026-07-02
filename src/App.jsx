@@ -1,28 +1,19 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Banner from "./Components/Banner";
-import CategorySection from "./Components/CategorySection";
-import FeaturedProducts from "./Components/FeaturedProducts";
-import FeaturesSection from "./Components/FeaturesSection";
-import Footer from "./Components/Footer";
-import Navbar from "./Components/Navbar";
-import NewArrivalsSlider from "./Components/NewArrivalsSlider";
-import NewsletterBanner from "./Components/NewsletterBanner";
-import OfferBanner from "./Components/OfferBanner";
-import TestimonialCard from "./Components/TestimonialCard";
+
+import Home from "./Pages/Home";
+import Layout from "./Components/Layout";
+import Products from "./Pages/Products";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Banner />
-      <FeaturesSection />
-      <CategorySection />
-      <FeaturedProducts />
-      <OfferBanner />
-      <NewArrivalsSlider />
-      <TestimonialCard />
-      <NewsletterBanner />
-      <Footer />
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/products" element={<Products />} />
+        </Route>
+      </Routes>
     </>
   );
 }

@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   const NavItmes = [
-    { name: "Home" },
-    { name: "Shop" },
+    { name: "Home", path: "/" },
+    { name: "Shop", path: "/products" },
     { name: "Categories" },
     { name: "Deals" },
     { name: "About Us" },
@@ -18,9 +20,11 @@ const Navbar = () => {
             <ul className="flex items-center gap-7 ">
               {NavItmes.map((items) => {
                 return (
-                  <li className="text-black font-semibold cursor-pointer hover:text-primary transition-all dur">
-                    {items.name}
-                  </li>
+                  <Link to={items.path}>
+                    <li className="text-black font-semibold cursor-pointer hover:text-primary transition-all dur">
+                      {items.name}
+                    </li>
+                  </Link>
                 );
               })}
             </ul>
